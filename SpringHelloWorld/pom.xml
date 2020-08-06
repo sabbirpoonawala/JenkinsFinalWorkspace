@@ -12,10 +12,13 @@
 	<artifactId>SpringHelloWorld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringHelloWorld</name>
+    <packaging>war</packaging>
+	
 	<description>Hello World project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<start-class>com.yash.main.SpringHelloWorldApplication</start-class>
 	</properties>
 
 	<dependencies>
